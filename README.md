@@ -1,5 +1,5 @@
 # HorizonTCBGviewer
-# Sync Background Images with an FTP-Server and write system- and room-information’s an Background Image 
+# Sync Background Images with an FTP-Server and write system- and room-information’s to an Background Image 
 
 HorizonTCBGviewer was designed for thin client computer rooms on for example university campuses. 
 
