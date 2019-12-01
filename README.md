@@ -11,9 +11,9 @@ HorizonTCBGviewer never sends any wired messages to a user. Instead status messa
 The App was originally designed for small Windows 10 IoT embedded Thin-Clients running Vmware Horizon desktop virtualization. 
 
 To porting this app your infrastructure following code changes are required: 
-1.	“DynamicVals.cs” -> Change here your FTP Server Name, Address and Path to the Image
-2.	 “DynamicVals.cs : DecodeComputerName()” -> This Method is responsible to decode the room- and PC- Number from a Windows Device name. If you use a different Device name format please change this method    
-3.	“FTPdowloadHandler.cs” -> Select here your FTP User Name and Password 
-4.	“ViewModels/RoomAndNoModel.cs” -> Edit this file to add or change information’s to show on the background Image
+1.	“*DynamicVals.cs*” --> Change here your FTP Server Name, Address and Path to the Image
+2.	 “DynamicVals.cs : DecodeComputerName()*” --> This Method is responsible to decode the room- and PC- Number from a Windows Device name. If you use a different Device name format please change this method    
+3.	“*FTPdowloadHandler.cs*” --> Select here your FTP User Name and Password 
+4.	“*ViewModels/RoomAndNoModel.cs*” --> Edit this file to add or change information’s to show on the background Image
 
 Recompile and publish the App, put an Image to a FTP-Server, install the app with Windows Click once on your clients, put the application on your clients to the startup folder and **enjoy**!   
