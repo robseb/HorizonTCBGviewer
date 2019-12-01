@@ -1,5 +1,7 @@
 # HorizonTCBGviewer
-## HorizonTCBGviewer was designed for thin client computer rooms on for example university campuses. 
+# Sync Background Images with an FTP-Server and write system- and room-information’s an Background Image 
+
+HorizonTCBGviewer was designed for thin client computer rooms on for example university campuses. 
 
 It is a simple tool to write system information’s (available free hard drive space, the network status and uptime) directly inside an windows background image. The tool decodes with the windows Device name (e.g. “TC-D11-158-2”) the Room Number (here: “D11-158”) and the PC Number (here: “2”) and writes them also to the Background image. 
 After a restart of the tool is the Background image synced with an FTP Server and only change if a new image is available (This is detected by the modification date of the image file).  The App can detect if someone changed the Windows Background Image manually and then update the image automatically back. The Background image is stored as an JPEG-File and can for example contain a Manuel of the usage of the computer room and a logo.   
