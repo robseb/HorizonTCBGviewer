@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="BgInfo.Views.RoomAndNoView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BgInfo.Views"
+        mc:Ignorable="d">
+    <Grid Margin="12,50,50,12" HorizontalAlignment="Right" TextElement.FontSize="{Binding Settings.FontSize}" x:Name="TheGrid">
+        <Grid.Resources>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition MinHeight="6" Height="Auto" />
+            <RowDefinition MinHeight="6" Height="Auto" />
+            <RowDefinition MinHeight="6" Height="Auto" />
+            <RowDefinition MinHeight="6" Height="Auto" />
+            <RowDefinition MinHeight="6" Height="Auto" />
+            <RowDefinition MinHeight="6" Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="PC No.:" FontFamily="Nirmala UI Semilight"    FontSize="30" Foreground="Gray"  HorizontalAlignment="Right"  Margin="0,0,0,0" />
+        <TextBlock Grid.Row="0" Grid.Column="1" FontFamily="Nirmala UI Semilight"   Text="{Binding PCNo}" FontSize="150" Foreground="Red" HorizontalAlignment="Right" Margin="0,0,30,0" />
+
+        <TextBlock Grid.Row="1" Text="Room No.:" FontFamily="Nirmala UI Semilight" FontSize="30"  Foreground="Gray" HorizontalAlignment="Right" Margin="0,0,0,0"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" FontFamily="Nirmala UI Semilight"   Text="{Binding RoomNo}" FontSize="150" Foreground="Green" HorizontalAlignment="Right" Margin="0,0,30,0"/>
+
+        <TextBlock Grid.Row="2" Text="Free Space:"  FontSize="18"  Foreground="White" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Row="2" Text="{Binding Drive_Freespace}" Grid.Column="2" FontSize="18" Foreground="White" HorizontalAlignment="Right"/>
+
+        <TextBlock Grid.Row="3" Text="Run Time:"  FontSize="18"  Foreground="White" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Row="3" Text="{Binding RunTimeMin}" Grid.Column="2" FontSize="18" Foreground="White" HorizontalAlignment="Right"/>
+
+        <TextBlock Grid.Row="4" Text="Network IF:"  FontSize="18"  Foreground="White" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Row="4" Text="{Binding NetworkIPs}" Grid.Column="2" FontSize="18" Foreground="White" HorizontalAlignment="Right"/>
+
+    </Grid>
+</UserControl>

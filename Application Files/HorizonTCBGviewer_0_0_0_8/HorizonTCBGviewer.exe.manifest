@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HorizonTCBGviewer.exe" version="0.0.0.8" publicKeyToken="91b7277c3801ad3e" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="EITlogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HorizonTCBGviewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HorizonTCBGviewer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hardcodet.Wpf.TaskbarNotification.dll" size="45056">
+      <assemblyIdentity name="Hardcodet.Wpf.TaskbarNotification" version="1.0.5.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SiQ47PytPm57uUKs8sQPviwNcuSYLfMDq1gorybKdT4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HorizonTCBGviewer.exe" size="87544">
+      <assemblyIdentity name="HorizonTCBGviewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pqu+nu/IU7hP2cyNcWf4PALA7/oHjgFww0roxkFL/5M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prism.dll" size="37376">
+      <assemblyIdentity name="Prism" version="7.0.0.396" publicKeyToken="40EE6C3A2184DC59" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>W0nhPz7NYBOEqe3q6rRivl8Yqw1xeZ7oH+nGO6qg23I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.dll" size="423936">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock" version="3.3.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CG/L71plks/biXAiDfhyMe6+vfBl73A5WHsM+7JVGwg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.Themes.Aero.dll" size="87040">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock.Themes.Aero" version="3.3.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sGPj1eAgv7eiq1J2NAv7pwg34htCoKwxHfvOgJYl/HU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.Themes.Metro.dll" size="79360">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock.Themes.Metro" version="3.3.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DFPk9uS2+CtzwPYB5ZEFDIJKcQL+y28+6J7Q6NJJ3LA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.Themes.VS2010.dll" size="83968">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock.Themes.VS2010" version="3.3.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4YrOjnuAoDfVL9AwZNqEmSdMpJolvI/V+d8GDzPVb5w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.DataGrid.dll" size="2435072">
+      <assemblyIdentity name="Xceed.Wpf.DataGrid" version="3.3.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ldcGkGHXbH/NYNstv9BFxMvdlYHMjFEyLoNqt/aiNFg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.Toolkit.dll" size="1093120">
+      <assemblyIdentity name="Xceed.Wpf.Toolkit" version="3.3.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mqhhYh4b+Ghaw1hHsn5YHYj6xbZserx8gsJkjv7FYDw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zodiacon.WPF.dll" size="47616">
+      <assemblyIdentity name="Zodiacon.WPF" version="1.1.6599.28064" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sns0ca0XPmAW8wStBcD9Y3xEtOWxGr/3LBzPxzNukU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EITlogo.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RrKgzS9hL5VDdkxNfORt1kELnkiUETuPJL6rfhrcrmA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HorizonTCBGviewer.exe.config" size="1540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pFbjfq5owZksnH1Vi+YpGH4L/KofCYvlh6M06ifcA6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+      <!-- Windows 7 -->
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />
+      <!-- Windows 8 -->
+      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />
+      <!-- Windows 8.1 -->
+      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />
+      <!-- Windows 10 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ROBSEBNUC\Robin Sebastian" issuerKeyHash="6f16fc95bf72fc325d2c588deda1cfab9a48b651" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zWw/E7aRcWVeMhqmdlXV4pBabySAsclTUel5bSSbz7k=</DigestValue></Reference></SignedInfo><SignatureValue>4dlmXemMXge+qp4kFQSlgzuGBlYnkR+KrKy5C7mkfZNBlStBAPuS174dydFvl/2YjMW5oMPZw8IN1UHlsbOELf7Q/WCe3hZ3TvIfjby1Qfu5hrRfcJQMaB8ZEG8P0A13yQQ3uFWlXR06yMIx7e7ftgRAeMKPsvtOT4n/KLmrj3g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8S8rL05HnxYS9ZchWtgTbCHN5M7UT4bf++hwLBD7uZJhaACaFB0BbQANftGoiGwSsJA8RS6ktK3Fr9rHjLzGIoou9GXSrFPOkbfV6TTqsDItMKNr2icUxRuFhPFrIYabED4DR+rS/Xh1AWbjdwWs2Rc4EZrbpkIcdXWcq/YAJ6U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b9cf9b246d79e95153c9b180246f5a90e2d55576a61a325e657191b6133f6ccd" Description="" Url=""><as:assemblyIdentity name="HorizonTCBGviewer.exe" version="0.0.0.8" publicKeyToken="91b7277c3801ad3e" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ROBSEBNUC\Robin Sebastian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PYkrBVB4aYnYz4bSEifTaheAA/54u/NQRNCxwdixK4k=</DigestValue></Reference></SignedInfo><SignatureValue>YeGSsZIaqtmSnykYpKhDl+9GNUDrQ5UoUjVvn3K+n8NhpJ/vsG8XQCHvoBMZRsLthwktSyq+WiUzmTdYk6+4DMv4SvNY85/iw7/hsfpD6KnFw0K7umhuS+n9S+XfVql6FTVPnuSKGh9OFe0egQaiyvxVJapWSP6x8tn7xxIbiWE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8S8rL05HnxYS9ZchWtgTbCHN5M7UT4bf++hwLBD7uZJhaACaFB0BbQANftGoiGwSsJA8RS6ktK3Fr9rHjLzGIoou9GXSrFPOkbfV6TTqsDItMKNr2icUxRuFhPFrIYabED4DR+rS/Xh1AWbjdwWs2Rc4EZrbpkIcdXWcq/YAJ6U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQJzJ+RlZp25hFw5vw3OlsGTANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIAUgBPAEIAUwBFAEIATgBVAEMAXABSAG8AYgBpAG4AIABTAGUAYgBhAHMAdABpAGEAbjAeFw0xODA5MTcyMzMxMzZaFw0xOTA5MTgwNTMxMzZaMD0xOzA5BgNVBAMeMgBSAE8AQgBTAEUAQgBOAFUAQwBcAFIAbwBiAGkAbgAgAFMAZQBiAGEAcwB0AGkAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxLysvTkefFhL1lyFa2BNsIc3kztRPht/76HAsEPu5kmFoAJoUHQFtAA1+0aiIbBKwkDxFLqS0rcWv2seMvMYiii70ZdKsU86Rt9XpNOqwMi0wo2vaJxTFG4WE8WshhpsQPgNH6tL9eHUBZuN3BazZFzgRmtumQhx1dZyr9gAnpQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGkdlY47sg+aNXZXSrOJO7L9rQx0Y1BO88giFm0xIHpLmAiUYZVKXsCo0CmpEp/LB/o/h4s8yvV4Li90rrHUiKVqlOcCsUi+cyz9TQiIRdxYGa2fxz0MKWyeJxLPT5aiK6eTTLMI8vL3P5ywGOTGUOUr4tV9IyIeJuisL/OVtYck</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

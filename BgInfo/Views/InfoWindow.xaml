@@ -1,0 +1,47 @@
+﻿<Window x:Class="BgInfo.Views.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BgInfo.Views"
+        mc:Ignorable="d"
+        Title="HorizonTCBGviewer-Info Window" Height="340" Width="450" Topmost="True" MaxHeight="360" MaxWidth="450" ResizeMode="NoResize"  >
+    <Grid>
+        <StackPanel>
+            <Label Content="HorizonTCBGviewer" HorizontalContentAlignment="Center" FontSize="22" FontWeight="Bold" Foreground="Gray"/>
+            <Separator />
+            <Label Content="Tool to show specific Client Informations" HorizontalContentAlignment="Center" FontSize="12" Foreground="Blue"/>
+            <Label Content=" in an Windows Background Image an update them from a FTP Server" HorizontalContentAlignment="Center" FontSize="12" Foreground="Blue" />
+            <Separator />
+            <StackPanel Orientation="Horizontal">
+                <Label Content="TMP Dir.:  " Margin="10,0,0,0" FontWeight="Bold"/>
+                <Label x:Name="TMP_Dir" Margin="10,0,0,0" FontWeight="Light"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Server Dir.:  " Margin="10,0,0,0" FontWeight="Bold"/>
+                <Label x:Name="Server_Dir" Margin="10,0,0,0" FontWeight="Light"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="current modification date:  " Margin="10,0,0,0" FontWeight="Bold"/>
+                <Label x:Name="mod_date" Margin="10,0,0,0" FontWeight="Light"/>
+            </StackPanel>
+            <Separator />
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Status:  " Margin="10,0,0,0" FontWeight="Bold"/>
+                <Label x:Name="BGmesLabel" Margin="10,0,0,0" FontWeight="Light" ></Label>
+            </StackPanel>
+            <Separator />
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Version.:  " Margin="10,0,0,0" FontWeight="Bold"/>
+                <Label x:Name="Version" Margin="10,0,0,0" FontWeight="Bold"  Foreground="Red"/>
+            </StackPanel>
+            <Separator />
+            <Label Content="2018 by Robin Sebastian" HorizontalContentAlignment="Center" FontSize="12" Foreground="Green" FontFamily="Segoe UI Symbol"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="OK" Click="Button_Click"  Width="80" Margin="40,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <Button Content="Refresh" Click="Refresh_Click"  Width="80" Margin="60,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <Button Content="close App" Click="Button_Click_1" Width="80" Margin="70,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Right" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
