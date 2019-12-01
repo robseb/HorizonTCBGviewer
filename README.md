@@ -16,4 +16,4 @@ To porting this app your infrastructure following code changes are required:
 3.	“FTPdowloadHandler.cs” -> Select here your FTP User Name and Password 
 4.	“ViewModels/RoomAndNoModel.cs” -> Edit this file to add or change information’s to show on the background Image
 
-Recompile and publish the App, put an Image to a FTP-Server, install the app with Windows Click once on your clients, put the application on your clients to the startup folder and enjoy!   
+Recompile and publish the App, put an Image to a FTP-Server, install the app with Windows Click once on your clients, put the application on your clients to the startup folder and **enjoy**!   
