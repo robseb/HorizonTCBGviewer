@@ -17,3 +17,12 @@ To porting this app your infrastructure following code changes are required:
 4.	“*ViewModels/RoomAndNoModel.cs*” --> Edit this file to add or change information’s to show on the background Image
 
 Recompile and publish the App, put an Image to a FTP-Server, install the app with Windows Click once on your clients, put the application on your clients to the startup folder and **enjoy**!   
+
+# Author
+* **Robin Sebastian**
+
+*HorizonTCBGviewer* a project, that I have fully developed on my own. No companies are involved in this project.
+Today I'm a Master Student of electronic engineering with the major embedded systems. 
+
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:mail@robseb.de)
+
