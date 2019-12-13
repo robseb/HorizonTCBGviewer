@@ -21,7 +21,7 @@ Recompile and publish the App, put an Image to a FTP-Server, install the app wit
 # Author
 * **Robin Sebastian**
 
-*HorizonTCBGviewer* a project, that I have fully developed on my own. No companies are involved in this project.
+*HorizonTCBGviewer* is a project, that I have fully developed on my own. No companies are involved in this project.
 Today I'm a Master Student of electronic engineering with the major embedded systems. 
 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:mail@robseb.de)
