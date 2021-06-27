@@ -19,10 +19,7 @@ To porting this app your infrastructure following code changes are required:
 Recompile and publish the App, put an Image to a FTP-Server, install the app with Windows Click once on your clients, put the application on your clients to the startup folder and **enjoy**!   
 
 # Author
-* **Robin Sebastian**
-
-*HorizonTCBGviewer* is a project, that I have fully developed on my own. No companies are involved in this project.
-Today I'm a Master Student of electronic engineering with the major embedded systems. 
+* **Robin Sebastian, M.Sc.**
 
 [![Gitter](https://badges.gitter.im/rsyocto/community.svg)](https://gitter.im/rsyocto/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Email me!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:git@robseb.de)
